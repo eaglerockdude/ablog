@@ -1,4 +1,4 @@
-<div id="page_wrapper">
+<div id="post_content">
 
   <h1 class="title">
     <%= @post.title %>
@@ -7,10 +7,7 @@
   <p class="date">
     Submitted <%= time_ago_in_words(@post.created_at) %> Ago
   </p>
-
-  <div>
-    <p class="post_wrapper"><%= @post.body %></p>
-  </div>
+       <p  class="body"><%= @post.body %> </p>
 
   <div class="myEditButton" >
     <%= link_to 'Edit', edit_post_path(@post) %>

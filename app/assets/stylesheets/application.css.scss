@@ -153,6 +153,10 @@ a {
     .body {
       font-size: 1.1em;
       line-height: 1.75;
+      width: 750px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-wrap: break-word;
     }
     .date_and_author {
       color: #9eafba;

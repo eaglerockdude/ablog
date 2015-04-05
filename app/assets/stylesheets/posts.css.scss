@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .myEditButton {
   -moz-box-shadow: 3px 4px 0px 0px #3e7327;
   -webkit-box-shadow: 3px 4px 0px 0px #3e7327;
@@ -20,10 +21,10 @@
   text-decoration:none;
   text-shadow:0px 1px 0px #5b8a3c;
 }
-.myButton:hover {
+.myEditButton:hover {
   background-color:#72b352;
 }
-.myButton:active {
+.myEditButton:active {
   position:relative;
   top:1px;
 }
@@ -55,7 +56,7 @@
   text-decoration:none;
   text-shadow:0px 1px 0px #810e05;
 }
-.myButton:hover {
+.myDltButton:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
   background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
   background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
@@ -65,7 +66,7 @@
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
   background-color:#f24437;
 }
-.myButton:active {
+.myDltButton:active {
   position:relative;
   top:1px;
 }
@@ -88,10 +89,10 @@
   text-decoration:none;
   text-shadow:0px 1px 0px #5b8a3c;
 }
-.myButton:hover {
+.myNewButton:hover {
   background-color:#72b352;
 }
-.myButton:active {
+.myNewButton:active {
   position:relative;
   top:1px;
 }
