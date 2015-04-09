@@ -4,6 +4,10 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  #get '/about', to: 'pages#about'     (alternate syntax works same)
+
+  get '/about' => 'pages#about',  as: :about
+
   root 'posts#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
